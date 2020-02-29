@@ -7,9 +7,27 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/341e580b4c.js" crossorigin="anonymous"></script>
+    
+    <style>
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+    </style>
   </head>
-
+  
   <body>
+    <%= render 'header'%>
     <%= yield %>
+    <%= render 'footer'%>
   </body>
 </html>

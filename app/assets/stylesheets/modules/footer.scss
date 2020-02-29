@@ -1,0 +1,98 @@
+.footer{
+	color: $white;
+	background-color: $azuki;
+	.container{
+		padding: 40px 20px;
+		.footer-left{
+			margin-bottom: 30px;
+			h2{
+				margin-bottom: 20px;
+				font-size: 30px;
+				font-family: 'Ma Shan Zheng', ;
+				letter-spacing: 0.2em;
+				
+			}
+			p{
+				font-size: 14px;
+				a{
+					text-decoration: none;
+					color: inherit;
+				}
+			}
+		}
+		.footer-right{
+			div{
+				margin-bottom: 20px;
+				h3{
+				margin-bottom: 10px;
+				border-bottom: 1px solid currentColor;
+				font-size: 14px;
+				}
+				ul{
+					list-style: none;
+					a{
+						display: block;
+						padding: 5px;
+						color: inherit;
+						font-size: 12px;
+						text-decoration: none;
+						&:hover{
+							background-color: rgba(0,0,0,0.3);
+						}
+					}
+				}
+			}
+		}
+		.copyright{
+			font-size: 12px;
+			text-align: center;
+		}
+		.sns-nav{
+			margin-top: 20px;
+			ul{
+				display: flex;
+				list-style: none;
+				a{
+					display: block;
+					margin-right: 8px;
+					color: inherit;
+					font-size: 16px;
+					text-decoration: none;
+					border: 1px solid currentColor;
+					width: 2em;
+					line-height: 2em;
+					border-radius: 50px;
+					text-align: center;
+					&:hover{
+						background-color: rgba(0,0,0,0.3);
+					}
+				}
+			}
+		}
+	}
+
+	@media(min-width: 768px){
+		.container{
+			display: flex;
+			flex-wrap: wrap;
+			max-width: 1000px;
+			margin: 0 auto;
+			.footer-left{
+				flex: 0 0 40%;
+			}
+			.footer-right{
+				display: flex;
+				flex: 0 0 60%;
+				div{
+					flex: 1;
+					&:not(:first-child){
+						margin-left: 40px;
+					}
+				}
+			}
+			.copyright{
+				flex: 0 0 100%;
+			}
+		}
+	}
+}
