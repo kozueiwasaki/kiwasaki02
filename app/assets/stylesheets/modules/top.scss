@@ -1,5 +1,265 @@
-.contents{
-  height: 1000px;
-  width: 100%;
-  background-color: $cream;
+.conA{
+  .container{
+    padding-top: 62px;
+    img{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+.conB{
+  h1{
+    text-align: center;
+    font-size: 1.75rem;
+    font-family: "Mincho","ＭＳ Ｐ明朝","MS PMincho","ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",serif;
+    letter-spacing: 0.2rem;
+    margin-top: 1.5rem;
+    color: inherit;
+  }
+  .container{
+    margin: 20px auto;
+    article{
+      a{
+        margin: 10px;
+        text-decoration: none;
+        display: block;
+        border: 1px solid $gray;
+        color: inherit;
+        &:hover{
+          opacity: 0.8;
+        }
+        .photo{
+          min-height: 150px;
+          background-position: center;
+          background-size: cover;
+        }
+        .text{
+          margin: 10px;
+          .date{
+            font-size: 12px;
+          }
+          h2{
+            font-size: 18px;
+            margin-bottom: 5px;
+          }
+          .content{
+            font-size: 14px;
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+  }
+  .moreBtn{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1000px;
+    margin: 0 auto;
+    a{
+      display: inline-block;
+      margin-right: 10px;
+      margin-bottom: 60px;
+      padding: 10px 30px;
+      background-color: $red;
+      border-radius: 3px;
+      color: $white;
+      font-size: 14px;
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+        background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+      }
+      .more{
+        margin-right: 5px;
+      }
+    }
+  }
+}
+.conC{
+  background-color: $main-color;
+  color: inherit;
+  .photo{
+    background-image: url(honden.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+  }
+  .text{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    &-wrapper{
+      h1{
+        font-size: 1.75rem;
+        font-family: "Mincho","ＭＳ Ｐ明朝","MS PMincho","ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",serif;
+        letter-spacing: 0.2rem;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: 0.75rem;
+        margin-bottom: 20px;
+        opacity: 0.8;
+      }
+      a{
+        display: inline-block;
+        margin-right: 10px;
+        padding: 10px 30px;
+        background-color: $red;
+        border-radius: 3px;
+        color: $white;
+        font-size: 14px;
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+          background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+        }
+        .more{
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+.conD{
+  padding: 80px 0;
+  .pickUp{
+    margin: 0 auto;
+    width: 96%;
+    .menu{
+      height: 200px;
+      margin-bottom: 10px;
+      background-position: center;
+      background-size: cover;
+      text-decoration: none;
+      &:hover{
+        opacity: 0.8;
+      }
+      h3{
+        color: $white;
+        font-family: "Mincho","ＭＳ Ｐ明朝","MS PMincho","ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",serif;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        padding: 30px 30px 0;
+      }
+    }
+    .kuzuryu{
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(kuzuryu3.jpg);
+    }
+    .news{
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(hujisan.jpg)
+    }
+    .event{
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(matsuri2.jpg);
+    }
+    .worship{
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(worship.jpg);
+    }
+    .map{
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(hisyaku.jpg);
+    }
+    .access{
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(matsuri.jpeg);
+    }
+    .contact{
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(ema.jpg);
+    }
+
+  }
+  @media(min-width: 600px)and(max-width: 799px){
+    .pickUp{
+      overflow: hidden;
+      .menu{
+        float: left;
+      }
+      .kuzuryu{
+        width: 50%;
+      }
+      .news{
+        width: 49%;
+        margin-left: 1%;
+      }
+      .event{
+        width: 50%;
+      }
+      .worship{
+        width: 49%;
+        margin-left: 1%;
+      }
+      .map{
+        width: 50%;
+      }
+      .access{
+        width: 49%;
+        margin-left: 1%;
+      }
+      .contact{
+        display: none;
+      }
+    }
+  }
+  @media(min-width: 800px){
+    .pickUp{
+      overflow: hidden;
+      .menu{
+        float: left;
+      }
+      .kuzuryu{
+        width: 60%;
+      }
+      .news{
+        width: 39%;
+        margin-left: 1%;
+      }
+      .event{
+        width: 39%;
+      }
+      .worship{
+        width: 60%;
+        margin-left: 1%;
+      }
+      .map{
+        width: 34%;
+      }
+      .access{
+        width: 34%;
+        margin-left: 1%;
+      }
+      .contact{
+        width: 30%;
+        margin-left: 1%;
+      }
+    }
+  }
+}
+@media(min-width: 768px){
+  .conA{
+    img{
+      max-height: 800px;
+    }
+  }
+  .conB{
+    .container{
+      display: flex;
+      max-width: 1000px;
+      article{
+        flex: 1;
+      }
+    }
+  }
+  .conC{
+    .container{
+      display: flex;
+      max-width: 1000px;
+      margin: 0 auto;
+      .photo{
+        flex: 3;
+        min-height: 400px;
+      }
+      .text{
+        flex: 2;
+        padding: 50px;
+      }
+    }
+  }
 }

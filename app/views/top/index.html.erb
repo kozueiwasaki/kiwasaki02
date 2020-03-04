@@ -1,1 +1,100 @@
-<div class="contents"></div>
+<section class="conA">
+  <div class="container">
+    <%= image_tag "hakone.jpg" %>
+  </div>
+</section>
+<section class="conB">
+  <h1>お知らせ</h1>
+  <div class="container">
+    <article>
+      <%= link_to "#" do %>
+        <div class="photo" style="background-image:url(<%= asset_path "sample.jpg" %>)"></div>
+        <div class="text">
+          <p class="date">2020.03.01</p>
+          <h2>タイトル</h2>
+          <p class="content">文字列文字列文字列文字列文字列文字列文字列文字列文字列文字列文字列</p>
+        </div>
+      <% end %>
+    </article>
+    <article>
+      <%= link_to "#" do %>
+        <div class="photo" style="background-image:url(<%= asset_path "sample.jpg" %>)"></div>
+        <div class="text">
+          <p class="date">2020.03.01</p>
+          <h2>タイトル</h2>
+          <p class="content">文字列文字列文字列文字列文字列文字列文字列文字列文字列文字列文字列</p>
+        </div>
+      <% end %>
+    </article>
+    <article>
+      <%= link_to "#" do %>
+        <div class="photo" style="background-image:url(<%= asset_path "sample.jpg" %>)"></div>
+        <div class="text">
+          <p class="date">2020.03.01</p>
+          <h2>タイトル</h2>
+          <p class="content">文字列文字列文字列文字列文字列文字列文字列文字列文字列文字列文字列</p>
+        </div>
+      <% end %>
+    </article>
+  </div>
+  <div class="moreBtn">
+    <%= link_to "#" do %>
+      <span class="more">お知らせ一覧</span>
+      <span class="fa fa-chevron-right"></span>
+    <% end %>
+  </div>
+</section>
+<section class="conC">
+  <div class="container">
+    <div class="photo"></div>
+    <div class="text">
+      <div class="text-wrapper">
+        <h1>根箱神社について</h1>
+        <p>御鎮座1250年を超える根箱神社は、数多の武将が訪れる心願成就、勝負の神として名を馳せ、関東総鎮守 根箱権現と崇敬されてきました。</p>
+        <%= link_to "#" do%>
+          <span class="more">もっと読む</span>
+          <span class="fa fa-chevron-right"></span>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="conD">
+  <ul class="pickUp">
+    <li>
+      <%= link_to "#", class: "menu kuzuryu" do %>
+        <h3>八頭竜神社他</h3>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to "#", class: "menu news" do %>
+        <h3>お知らせ</h3>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to "#",  class: "menu event" do %>
+        <h3>年中行事</h3>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to "#", class: "menu worship" do %>
+        <h3>ご参拝とご祈祷</h3>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to "#",  class: "menu map" do %>
+        <h3>境内マップ</h3>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to "#",  class: "menu access" do %>
+        <h3>アクセス</h3>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to "#",  class: "menu contact" do %>
+        <h3>お問い合わせ</h3>
+      <% end %>
+    </li>
+  </ul>
+</section>
