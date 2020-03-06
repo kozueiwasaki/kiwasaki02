@@ -166,6 +166,15 @@
     }
 
   }
+  @media(max-width: 599px){
+    .pickUp{
+      overflow: hidden;
+      .menu{
+        float: left;
+        width: 100%;
+      }
+    }
+  }
   @media(min-width: 600px)and(max-width: 799px){
     .pickUp{
       overflow: hidden;
