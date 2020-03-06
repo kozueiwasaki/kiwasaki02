@@ -10,12 +10,9 @@
 }
 .conB{
   h1{
+    @include heading;
     text-align: center;
-    font-size: 1.75rem;
-    font-family: "Mincho","ＭＳ Ｐ明朝","MS PMincho","ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",serif;
-    letter-spacing: 0.2rem;
     margin-top: 1.5rem;
-    color: inherit;
   }
   .container{
     margin: 20px auto;
@@ -57,28 +54,13 @@
     max-width: 1000px;
     margin: 0 auto;
     a{
-      display: inline-block;
-      margin-right: 10px;
+      @include buttons;
       margin-bottom: 60px;
-      padding: 10px 30px;
-      background-color: $red;
-      border-radius: 3px;
-      color: $white;
-      font-size: 14px;
-      text-decoration: none;
-      &:hover{
-        text-decoration: underline;
-        background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
-      }
-      .more{
-        margin-right: 5px;
-      }
     }
   }
 }
 .conC{
   background-color: $main-color;
-  color: inherit;
   .photo{
     background-image: url(honden.jpg);
     background-position: center;
@@ -91,9 +73,7 @@
     align-items: center;
     &-wrapper{
       h1{
-        font-size: 1.75rem;
-        font-family: "Mincho","ＭＳ Ｐ明朝","MS PMincho","ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",serif;
-        letter-spacing: 0.2rem;
+        @include heading;
         margin-bottom: 20px;
       }
       p{
@@ -102,21 +82,7 @@
         opacity: 0.8;
       }
       a{
-        display: inline-block;
-        margin-right: 10px;
-        padding: 10px 30px;
-        background-color: $red;
-        border-radius: 3px;
-        color: $white;
-        font-size: 14px;
-        text-decoration: none;
-        &:hover{
-          text-decoration: underline;
-          background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
-        }
-        .more{
-          margin-right: 5px;
-        }
+        @include buttons;
       }
     }
   }
@@ -241,7 +207,7 @@
     }
   }
 }
-@media(min-width: 768px){
+@media(min-width: 600px){
   .conA{
     img{
       max-height: 800px;
