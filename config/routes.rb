@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :top, only: :index do
     collection do
       get 'articles'
+      get 'contact'
     end
   end
 end
