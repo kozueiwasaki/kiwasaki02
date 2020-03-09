@@ -4,16 +4,15 @@
 2️⃣Technologies<br> 
 3️⃣Author<br><br><br>
 ## 1️⃣ About 
-観光で訪れた神社の公式ホームページが使いづらい:exclamation::exclamation:困った:dizzy_face:<br><br><br>
-そんな経験から、<strong>＂モバイルファーストでおしゃれなサイトを作れるようになりたい＂</strong>と思い、<br><br><br>
-架空の神社のホームページをつくってみました:sparkles: <br><br><br>
+観光で訪れた神社の公式ホームページが使いづらい:exclamation::exclamation:困った:dizzy_face:<br><br>
+そんな経験から、<strong>＂モバイルファーストでおしゃれなサイトを作れるようになりたい＂</strong>と思い、<br><br>
+架空の神社のホームページをつくってみました:sparkles: <br><br>
 現在、<br>
 ・ お知らせ一覧ページ<br>
 ・ お問い合わせページ<br>
 を作成済みです！<br>
 （右上のハンバーガーメニューから遷移できます）<br><br>
-
-
+[![Image from Gyazo](https://i.gyazo.com/ea7a05fe25a70792ea7126635dd0d37d.gif)](https://gyazo.com/ea7a05fe25a70792ea7126635dd0d37d)<br><br>
 ## 2️⃣ Technologies  
 <p align="center" ><a href="https://www.ruby-lang.org/ja/" rel="nofollow"><img src="https://user-images.githubusercontent.com/39142850/71774533-1ddf1780-2fb4-11ea-8560-753bed352838.png" height="75px;">
 <a href="https://rubyonrails.org/" rel="nofollow"><img src="https://user-images.githubusercontent.com/39142850/71774548-731b2900-2fb4-11ea-99ba-565546c5acb4.png" height="75px;"></a>
