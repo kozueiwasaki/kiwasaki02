@@ -62,7 +62,7 @@
 .conC{
   background-color: $main-color;
   .photo{
-    background-image: url(honden.jpg);
+    background-image: image-url('honden.jpg');
     background-position: center;
     background-size: cover;
     min-height: 200px;
@@ -110,25 +110,25 @@
       }
     }
     .kuzuryu{
-      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(kuzuryu3.jpg);
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),image-url('kuzuryu3.jpg');
     }
     .news{
-      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(hujisan.jpg)
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),image-url('hujisan.jpg')
     }
     .event{
-      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(matsuri2.jpg);
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),image-url('matsuri2.jpg');
     }
     .worship{
-      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(worship.jpg);
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),image-url('worship.jpg');
     }
     .map{
-      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(hisyaku.jpg);
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),image-url('hisyaku.jpg');
     }
     .access{
-      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(matsuri.jpeg);
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),image-url('matsuri.jpeg');
     }
     .contact{
-      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(ema.jpg);
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),image-url('ema.jpg');
     }
 
   }
