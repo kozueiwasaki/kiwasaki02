@@ -11,6 +11,7 @@
     width: 100%;
     margin: 0 auto;
     display: flex;
+    align-items: center;
     line-height: 62px;
     justify-content: space-between;
     .top{
@@ -24,41 +25,73 @@
       .logo{
         font-family: 'Ma Shan Zheng', ;
         font-size: 35px;
-        color: black;
+        color: $black;
         margin-left: 5px;
       }
     }
     .toggleButton{
+      display: inline-block;
+      position: relative;
+      width: 36px;
+      height: 28px;
       margin-right: 10px;
-      border: none;
-      outline: none;
-      background: none; 
-      font-size: 28px;
-      opacity: 0.5;
       cursor: pointer;
-      &:hover{
-        opacity: 0.3;
-      }
+    }
+    .toggleButton span {
+      display: inline-block;
+      box-sizing: border-box;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background-color: $black;
+      transition: all .5s .2s;
+    }
+    .toggleButton.active span {
+      background-color: $black;
+    }
+    .toggleButton span:nth-of-type(1) {
+      top: 0;
+    }
+    .toggleButton.active span:nth-of-type(1) {
+      transform: translateY(12px) rotate(-45deg);
+    }
+    .toggleButton span:nth-of-type(2) {
+      top: 12px;
+    }
+    .toggleButton.active span:nth-of-type(2) {
+      opacity: 0;
+    }
+    .toggleButton span:nth-of-type(3) {
+      bottom: 0;
+    }
+    .toggleButton.active span:nth-of-type(3) {
+      transform: translateY(-12px) rotate(45deg);
     }
   }
-  .globalNav{
-    background-color: rgba(0,0,0,0.8);
-    ul{
-      padding: 20px 0;
-      li{
-        a{
-          display: block;
-          text-align: center;
-          color: white;
-          font-size: 18px;
-          font-family: "Mincho","ＭＳ Ｐ明朝","MS PMincho","ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",serif;
-          letter-spacing: 0.07em;
-          padding: 15px 0;
-          &:hover{
-            opacity: 0.5;
-          }
-        }
-      }
+  .globalNav {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .globalNav ul {
+    padding: 20px 0;
+  }
+  .globalNav ul li a{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: "Mincho","ＭＳ Ｐ明朝","MS PMincho","ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",serif;
+    letter-spacing: 0.07em;
+    padding: 15px 0;
+    &:hover{
+      opacity: 0.5;
     }
   }
   @media(min-width: 768px){
