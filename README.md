@@ -12,7 +12,7 @@
 ・ お知らせ一覧ページ<br>
 ・ お問い合わせページ<br>
 を作成済みです。<br>
-（右上のハンバーガーメニューから遷移できます）<br><br>
+（右上のメニューから遷移できます）<br><br>
 [![Image from Gyazo](https://i.gyazo.com/ea7a05fe25a70792ea7126635dd0d37d.gif)](https://gyazo.com/ea7a05fe25a70792ea7126635dd0d37d)<br><br>
 ## 2️⃣ Technologies  
 <p align="center" ><a href="https://www.ruby-lang.org/ja/" rel="nofollow"><img src="https://user-images.githubusercontent.com/39142850/71774533-1ddf1780-2fb4-11ea-8560-753bed352838.png" height="75px;">
