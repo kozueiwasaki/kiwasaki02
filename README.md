@@ -2,15 +2,16 @@
 ## 📕 Table of contents<br><br>
 1️⃣About<br>
 2️⃣Technologies<br> 
-3️⃣Author<br><br><br>
+3️⃣Author<br>
 ## 1️⃣ About 
-観光で訪れた神社の公式ホームページが使いづらい:exclamation::exclamation:困った:dizzy_face:<br><br>
+<strong>＂観光で訪れた神社の公式ホームページが使いづらい:exclamation::exclamation:困った:dizzy_face:＂</strong><br><br>
 そんな経験から、<strong>＂モバイルファーストでおしゃれなサイトを作れるようになりたい＂</strong>と思い、<br><br>
 架空の神社のホームページをつくってみました:sparkles: <br><br>
+ＰＣよりご覧になる場合は、是非画面幅を変えてみてください！<br><br>
 現在、<br>
 ・ お知らせ一覧ページ<br>
 ・ お問い合わせページ<br>
-を作成済みです！<br>
+を作成済みです。<br>
 （右上のハンバーガーメニューから遷移できます）<br><br>
 [![Image from Gyazo](https://i.gyazo.com/ea7a05fe25a70792ea7126635dd0d37d.gif)](https://gyazo.com/ea7a05fe25a70792ea7126635dd0d37d)<br><br>
 ## 2️⃣ Technologies  
